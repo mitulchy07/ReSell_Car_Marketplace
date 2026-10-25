@@ -1,0 +1,10 @@
+node_modules
+.git
+.env
+.env.*
+*.log
+coverage
+.vercel
+.DS_Store
+*.backup
+*serviceAccount*.json

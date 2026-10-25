@@ -1,0 +1,13 @@
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: resell-backend:local
+    container_name: resell-backend
+    ports:
+      - "127.0.0.1:4000:4000"
+    environment:
+      NODE_ENV: development
+      PORT: "4000"
+    restart: "no"
