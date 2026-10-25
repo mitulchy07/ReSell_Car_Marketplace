@@ -1,0 +1,321 @@
+/* ReSell UI consistency hotfix v1. Scoped to our own components; never hides a CTA on hover. */
+.rs-fix-backdrop.rs-ui-dialog-backdrop {
+  position: fixed !important;
+  inset: 0 !important;
+  z-index: 200000 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  overflow-y: auto !important;
+  background: rgba(9, 21, 37, 0.66) !important;
+  padding: 16px !important;
+  box-sizing: border-box !important;
+}
+.rs-fix-dialog.rs-ui-dialog {
+  isolation: isolate !important;
+  position: relative !important;
+  display: block !important;
+  background: #fff !important;
+  color: #172a42 !important;
+  width: min(100%, 520px) !important;
+  max-height: calc(100dvh - 32px) !important;
+  overflow: auto !important;
+  border: 1px solid #e4ebf2 !important;
+  border-radius: 22px !important;
+  padding: 30px !important;
+  box-sizing: border-box !important;
+  box-shadow: 0 32px 90px rgba(0, 0, 0, 0.26) !important;
+  text-align: left !important;
+}
+.rs-fix-dialog .rs-ui-dialog-symbol {
+  width: 50px !important;
+  height: 50px !important;
+  min-width: 50px !important;
+  display: grid !important;
+  place-items: center !important;
+  border-radius: 15px !important;
+  margin-bottom: 14px !important;
+}
+.rs-fix-dialog .rs-ui-dialog-eyebrow {
+  color: #5b8241 !important;
+  letter-spacing: 0.13em !important;
+  font-size: 11px !important;
+  font-weight: 800 !important;
+}
+.rs-fix-dialog h2 {
+  color: #17283f !important;
+  font-size: clamp(23px, 4.5vw, 30px) !important;
+  line-height: 1.19 !important;
+  font-weight: 850 !important;
+  letter-spacing: -0.04em !important;
+  margin: 9px 0 12px !important;
+}
+.rs-fix-dialog .rs-ui-dialog-description {
+  color: #596e85 !important;
+  font-size: 14px !important;
+  line-height: 1.65 !important;
+  margin: 0 !important;
+}
+.rs-fix-dialog .rs-ui-dialog-subject {
+  background: #f3f7fb !important;
+  color: #213953 !important;
+  font-size: 13px !important;
+  border: 1px solid #dfe8f0 !important;
+  border-radius: 12px !important;
+  padding: 13px 15px !important;
+  overflow-wrap: anywhere !important;
+}
+.rs-fix-dialog .rs-fix-close {
+  display: grid !important;
+  place-items: center !important;
+  position: absolute !important;
+  top: 18px !important;
+  right: 18px !important;
+  width: 36px !important;
+  height: 36px !important;
+  padding: 0 !important;
+  border: 0 !important;
+  border-radius: 50% !important;
+  background: #f1f5f9 !important;
+  color: #506780 !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  font-size: 25px !important;
+  cursor: pointer !important;
+}
+/* Explicitly paint BOTH options. Older DaisyUI/global .btn styles made primary actions invisible. */
+.rs-fix-dialog .rs-fix-actions.rs-ui-dialog-actions {
+  display: grid !important;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) !important;
+  align-items: stretch !important;
+  gap: 12px !important;
+  width: 100% !important;
+  margin: 27px 0 0 !important;
+  padding: 0 !important;
+  overflow: visible !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  position: relative !important;
+  min-height: 50px !important;
+}
+.rs-fix-dialog .rs-fix-actions > button.rs-fix-cancel,
+.rs-fix-dialog .rs-fix-actions > button.rs-fix-confirm {
+  box-sizing: border-box !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 9px !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  position: relative !important;
+  inset: auto !important;
+  transform: none !important;
+  filter: none !important;
+  clip: auto !important;
+  clip-path: none !important;
+  height: auto !important;
+  min-height: 52px !important;
+  min-width: 0 !important;
+  max-width: none !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 11px 14px !important;
+  border-radius: 12px !important;
+  border: 1px solid transparent !important;
+  font-family: inherit !important;
+  font-size: 14px !important;
+  line-height: 1.3 !important;
+  font-weight: 800 !important;
+  letter-spacing: 0 !important;
+  text-align: center !important;
+  white-space: normal !important;
+  text-transform: none !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
+  box-shadow: none !important;
+  z-index: 2 !important;
+  flex: none !important;
+}
+.rs-fix-dialog .rs-fix-actions > button.rs-fix-cancel {
+  background: #edf2f7 !important;
+  color: #283e57 !important;
+  -webkit-text-fill-color: #283e57 !important;
+  border-color: #dee6ed !important;
+}
+.rs-fix-dialog .rs-fix-actions > button.rs-fix-confirm {
+  background: #1c324c !important;
+  color: #fff !important;
+  -webkit-text-fill-color: #fff !important;
+  border-color: #1c324c !important;
+}
+.rs-fix-dialog .rs-fix-actions > button.rs-fix-confirm.is-danger {
+  background: #b83c40 !important;
+  color: #fff !important;
+  -webkit-text-fill-color: #fff !important;
+  border-color: #b83c40 !important;
+}
+.rs-fix-dialog.rs-ui-dialog--signout .rs-fix-actions > button.rs-fix-confirm {
+  background: #b6ef70 !important;
+  color: #172e27 !important;
+  -webkit-text-fill-color: #172e27 !important;
+  border-color: #b6ef70 !important;
+}
+.rs-fix-dialog .rs-fix-actions > button.rs-fix-confirm span,
+.rs-fix-dialog .rs-fix-actions > button.rs-fix-cancel span {
+  display: inline !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  color: inherit !important;
+  -webkit-text-fill-color: inherit !important;
+  position: static !important;
+}
+.rs-fix-dialog .rs-fix-actions > button:disabled {
+  opacity: 0.55 !important;
+  cursor: wait !important;
+}
+.rs-fix-dialog .rs-fix-actions > button:not(:disabled):hover {
+  filter: brightness(0.95) !important;
+  box-shadow: 0 5px 14px rgba(22, 40, 60, 0.12) !important;
+}
+.rs-fix-dialog button:focus-visible,
+.rs-op-report-form button:focus-visible,
+.rs-op-report-form textarea:focus-visible {
+  outline: 3px solid #8bc64e !important;
+  outline-offset: 3px !important;
+}
+/* Reporting field and submit button must stay legible with browser dark mode and DaisyUI themes. */
+.rs-op-report .rs-op-report-form {
+  background: #f8fafc !important;
+  border-color: #dfe7ef !important;
+  color: #20344a !important;
+}
+.rs-op-report .rs-op-report-form label {
+  color: #233b54 !important;
+  -webkit-text-fill-color: #233b54 !important;
+}
+.rs-op-report .rs-op-report-form textarea {
+  color-scheme: light !important;
+  color: #192e43 !important;
+  -webkit-text-fill-color: #192e43 !important;
+  background: #fff !important;
+  opacity: 1 !important;
+  border: 1px solid #c8d6e3 !important;
+  border-radius: 12px !important;
+  min-height: 120px !important;
+  padding: 12px 14px !important;
+  caret-color: #192e43 !important;
+  box-shadow: none !important;
+}
+.rs-op-report .rs-op-report-form textarea::placeholder {
+  color: #79899b !important;
+  -webkit-text-fill-color: #79899b !important;
+}
+.rs-op-report .rs-op-report-form .rs-op-quicknav {
+  display: flex !important;
+  gap: 10px !important;
+  align-items: stretch !important;
+  flex-wrap: wrap !important;
+}
+.rs-op-report .rs-op-report-form button.rs-op-primary {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  background: #1c324c !important;
+  color: #fff !important;
+  -webkit-text-fill-color: #fff !important;
+  border: 1px solid #1c324c !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  padding: 12px 18px !important;
+  min-height: 46px !important;
+  cursor: pointer !important;
+}
+.rs-op-report .rs-op-report-form button.rs-op-primary:disabled {
+  opacity: 0.5 !important;
+  cursor: not-allowed !important;
+}
+.rs-op-report .rs-op-report-form button.rs-op-secondary {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  background: #edf2f7 !important;
+  color: #2a4058 !important;
+  -webkit-text-fill-color: #2a4058 !important;
+  border: 1px solid #d1dde7 !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  padding: 12px 18px !important;
+  min-height: 46px !important;
+  cursor: pointer !important;
+}
+/* Consistent admin table / report decisions; never white-on-white. */
+.rs-op-admin-table button:not(:disabled),
+.rs-v2-table-actions button:not(:disabled),
+.rs-op-tabs button:not(:disabled) {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  min-height: 36px !important;
+  color: #273e56 !important;
+  -webkit-text-fill-color: #273e56 !important;
+  background: #eaf0f7 !important;
+  border: 1px solid #d4e0eb !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
+}
+.rs-op-tabs button.active,
+.rs-v2-admin-tabs button.active {
+  background: #1c324c !important;
+  color: #fff !important;
+  -webkit-text-fill-color: #fff !important;
+}
+.rs-op-admin-table button:disabled,
+.rs-v2-table-actions button:disabled {
+  opacity: 0.5 !important;
+}
+.rs-mkt-card .rs-mkt-card-footer .rs-mkt-book,
+.rs-mkt-card .rs-mkt-card-footer .rs-mkt-book-action,
+.rs-mkt-detail-aside .rs-mkt-book-action {
+  display: inline-flex !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  transform: none !important;
+  position: relative !important;
+  color: #fff !important;
+  -webkit-text-fill-color: #fff !important;
+  background: #182e46 !important;
+  border-color: #182e46 !important;
+}
+.rs-mkt-card .rs-mkt-card-footer .rs-mkt-book:disabled,
+.rs-mkt-detail-aside .rs-mkt-book-action:disabled {
+  background: #e8eef3 !important;
+  color: #54677d !important;
+  -webkit-text-fill-color: #54677d !important;
+}
+@media (max-width: 520px) {
+  .rs-fix-dialog.rs-ui-dialog {
+    padding: 25px 20px !important;
+    border-radius: 18px !important;
+  }
+  .rs-fix-dialog .rs-fix-actions.rs-ui-dialog-actions {
+    grid-template-columns: 1fr !important;
+    gap: 10px !important;
+  }
+  .rs-fix-dialog .rs-fix-actions > button.rs-fix-confirm {
+    grid-row: 1 !important;
+  }
+  .rs-fix-dialog .rs-fix-actions > button.rs-fix-cancel {
+    grid-row: 2 !important;
+  }
+  .rs-op-report .rs-op-report-form .rs-op-quicknav > button {
+    flex: 1 1 135px !important;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .rs-fix-backdrop,
+  .rs-fix-dialog {
+    animation: none !important;
+  }
+}

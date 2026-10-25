@@ -1,0 +1,33 @@
+/* Mobile-first, fits inside the Modern Listing Card content area. */
+.rs-vehicle-specs {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  margin: 16px 0;
+  padding: 14px;
+  border: 1px solid #e6eaf0;
+  background: #f8fafc;
+  border-radius: 14px;
+}
+.rs-vehicle-spec {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  gap: 3px;
+}
+.rs-vehicle-spec-label {
+  font-size: 11px;
+  font-weight: 650;
+  color: #768396;
+}
+.rs-vehicle-spec-value {
+  font-size: 13px;
+  color: #19293e;
+  font-weight: 780;
+  overflow-wrap: anywhere;
+}
+@media (min-width: 900px) {
+  .rs-vehicle-specs {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}

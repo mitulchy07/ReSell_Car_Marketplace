@@ -1,0 +1,73 @@
+/* ReSell: top-level Admin Console navigation (scoped, no global button rules) */
+.rs-admin-root-tabs {
+  display: flex;
+  align-items: stretch;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 18px 0 22px;
+  padding: 7px;
+  background: #182c40;
+  border: 1px solid #385168;
+  border-radius: 16px;
+}
+.rs-admin-root-tabs button {
+  appearance: none;
+  display: inline-flex !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  justify-content: center;
+  align-items: center;
+  min-height: 44px;
+  padding: 11px 19px;
+  border: 1px solid transparent;
+  border-radius: 11px;
+  color: #dceaf3 !important;
+  background: transparent !important;
+  font-weight: 750;
+  font-size: 0.93rem;
+  line-height: 1.35;
+  cursor: pointer;
+  transition:
+    background-color 0.15s ease,
+    color 0.15s ease;
+}
+.rs-admin-root-tabs button:hover {
+  background: #30465d !important;
+}
+.rs-admin-root-tabs button[aria-selected='true'] {
+  color: #152838 !important;
+  background: #b8f178 !important;
+  border-color: #b8f178 !important;
+}
+.rs-admin-root-tabs button:focus-visible {
+  outline: 3px solid #b8f178;
+  outline-offset: 3px;
+}
+.rs-ua-page.rs-ua-embedded {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 0 0 2.5rem !important;
+  color: #17283d;
+}
+.rs-ua-embedded .rs-ua-hero {
+  margin-top: 0.35rem;
+}
+.rs-ua-embedded .rs-ua-hero h1 {
+  font-size: clamp(1.6rem, 3.3vw, 2.4rem);
+}
+@media (max-width: 580px) {
+  .rs-admin-root-tabs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6px;
+  }
+  .rs-admin-root-tabs button {
+    min-width: 0;
+    padding: 10px 8px;
+    font-size: 0.84rem;
+  }
+  .rs-ua-page.rs-ua-embedded {
+    padding: 0 0 1rem !important;
+  }
+}

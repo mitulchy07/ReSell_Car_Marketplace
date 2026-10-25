@@ -1,0 +1,352 @@
+.rs-op-page {
+  padding-block: 44px 80px;
+  color: #16253d;
+  min-height: 60vh;
+}
+.rs-op-head {
+  margin-bottom: 26px;
+}
+.rs-op-head h1 {
+  font-size: clamp(32px, 4vw, 54px);
+  font-weight: 850;
+  letter-spacing: -0.05em;
+  margin: 8px 0;
+}
+.rs-op-head h2 {
+  font-size: 30px;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+}
+.rs-op-head p {
+  color: #667892;
+  margin: 8px 0 20px;
+}
+.rs-op-quicknav,
+.rs-op-order-tail,
+.rs-op-editor-buttons {
+  display: flex;
+  gap: 9px;
+  flex-wrap: wrap;
+}
+.rs-op-primary,
+.rs-op-secondary,
+.rs-op-danger,
+.rs-op-admin-table button {
+  border: 1px solid #d5deec;
+  padding: 10px 14px;
+  border-radius: 11px;
+  font-size: 13px;
+  font-weight: 750;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  text-decoration: none;
+  transition:
+    transform 0.15s,
+    background 0.15s;
+}
+.rs-op-primary {
+  background: #283a53;
+  color: #fff !important;
+  border-color: #283a53;
+}
+.rs-op-secondary {
+  background: #fff;
+  color: #304662 !important;
+}
+.rs-op-danger {
+  background: #fff0ef;
+  color: #bc3838;
+  border-color: #ffcfcc;
+}
+.rs-op-primary:hover,
+.rs-op-secondary:hover,
+.rs-op-danger:hover {
+  transform: translateY(-1px);
+}
+.rs-op-primary:disabled,
+.rs-op-secondary:disabled,
+.rs-op-danger:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.rs-op-stack {
+  display: grid;
+  gap: 14px;
+}
+.rs-op-order {
+  display: grid;
+  grid-template-columns: 148px 1fr auto;
+  gap: 24px;
+  align-items: center;
+  background: #fff;
+  border: 1px solid #e3eaf2;
+  border-radius: 19px;
+  padding: 16px;
+  box-shadow: 0 10px 22px rgba(37, 59, 90, 0.04);
+}
+.rs-op-order img {
+  width: 148px;
+  height: 104px;
+  border-radius: 11px;
+  object-fit: cover;
+  background: #e5eaf0;
+}
+.rs-op-order h2 {
+  font-size: 19px;
+  font-weight: 800;
+  line-height: 1.3;
+  margin: 5px 0;
+}
+.rs-op-order p,
+.rs-op-order small {
+  font-size: 13px;
+  color: #718198;
+}
+.rs-op-order a {
+  font-size: 13px;
+  font-weight: 700;
+}
+.rs-op-order-tail {
+  align-items: center;
+  justify-content: flex-end;
+  max-width: 280px;
+}
+.rs-op-status {
+  font-size: 12px;
+  font-weight: 800;
+  border-radius: 999px;
+  padding: 6px 12px;
+  background: #e9f4e1;
+  color: #4c703d;
+  text-transform: capitalize;
+}
+.rs-op-error {
+  background: #fff2f0;
+  color: #a53838;
+  padding: 12px 16px;
+  border: 1px solid #ffd1d1;
+  border-radius: 12px;
+}
+.rs-op-empty {
+  border: 1px dashed #cbd7e4;
+  padding: 50px 24px;
+  border-radius: 16px;
+  text-align: center;
+  color: #718198;
+}
+.rs-op-overlay {
+  position: fixed;
+  inset: 0;
+  background: #12243a99;
+  z-index: 1200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.rs-op-editor {
+  background: #fff;
+  border-radius: 20px;
+  width: min(760px, 100%);
+  max-height: 90vh;
+  overflow: auto;
+  padding: 26px;
+}
+.rs-op-editor h2 {
+  font-size: 28px;
+  font-weight: 850;
+}
+.rs-op-editor p {
+  color: #6d7f96;
+  margin-bottom: 18px;
+}
+.rs-op-edit-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+.rs-op-edit-grid label {
+  display: grid;
+  gap: 6px;
+  font-size: 12px;
+  font-weight: 700;
+}
+.rs-op-edit-grid label:has(textarea),
+.rs-op-editor-buttons {
+  grid-column: 1/-1;
+}
+.rs-op-edit-grid input,
+.rs-op-edit-grid textarea,
+.rs-op-edit-grid select {
+  width: 100%;
+  padding: 11px;
+  border-radius: 10px;
+  border: 1px solid #cbd5e1;
+  background: white;
+  color: #16253d;
+}
+.rs-op-edit-grid textarea {
+  min-height: 110px;
+}
+.rs-op-admin-extra {
+  margin-top: 34px;
+  background: #fff;
+  border: 1px solid #e5eaf0;
+  border-radius: 20px;
+  padding: 24px;
+  color: #18263d;
+}
+.rs-op-tabs {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin: 10px 0 18px;
+}
+.rs-op-tabs button {
+  padding: 9px 14px;
+  background: #f1f5f9;
+  border: 0;
+  border-radius: 9px;
+  font-size: 13px;
+  cursor: pointer;
+  font-weight: 700;
+}
+.rs-op-tabs button.active {
+  background: #243754;
+  color: #fff;
+}
+.rs-op-admin-table-wrap {
+  overflow: auto;
+}
+.rs-op-admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  min-width: 570px;
+}
+.rs-op-admin-table th,
+.rs-op-admin-table td {
+  padding: 12px;
+  border-bottom: 1px solid #e8edf2;
+  font-size: 13px;
+}
+.rs-op-admin-table th {
+  color: #61758d;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+}
+.rs-op-admin-table small {
+  display: block;
+  margin-top: 4px;
+  color: #7d8da0;
+}
+.rs-op-admin-table button {
+  padding: 7px 10px;
+  margin: 2px;
+  background: #f0f5fa;
+}
+.rs-op-booking .rs-mkt-book-action {
+  opacity: 1 !important;
+  visibility: visible !important;
+  transform: none !important;
+  position: static !important;
+  display: inline-flex !important;
+}
+.rs-booking-control .rs-mkt-book-action {
+  min-width: 145px;
+}
+.rs-op-page *:focus-visible,
+.rs-op-admin-extra *:focus-visible {
+  outline: 3px solid #a8da53;
+  outline-offset: 2px;
+}
+@media (max-width: 720px) {
+  .rs-op-page {
+    padding-block: 26px;
+  }
+  .rs-op-order {
+    grid-template-columns: 96px 1fr;
+    gap: 12px;
+  }
+  .rs-op-order img {
+    width: 96px;
+    height: 82px;
+  }
+  .rs-op-order-tail {
+    grid-column: 1/-1;
+    justify-content: flex-start;
+    max-width: none;
+  }
+  .rs-op-edit-grid {
+    grid-template-columns: 1fr;
+  }
+  .rs-op-admin-extra {
+    padding: 16px;
+  }
+}
+
+.rs-op-report {
+  margin: 24px 0;
+}
+.rs-op-report-link {
+  background: transparent;
+  border: 0;
+  color: #566d87;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  cursor: pointer;
+  font: inherit;
+  font-size: 13px;
+}
+.rs-op-report-form {
+  display: grid;
+  gap: 12px;
+  margin-top: 12px;
+  border: 1px solid #e3eaf1;
+  border-radius: 12px;
+  padding: 15px;
+  background: #f8fafc;
+}
+.rs-op-report-form textarea {
+  width: 100%;
+  min-height: 100px;
+  padding: 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+}
+.rs-op-report-form label {
+  font-weight: 700;
+  font-size: 13px;
+}
+
+/* My Garage: reliable contrast for the listing edit action. */
+.rs-op-page .rs-op-order-tail button.rs-op-edit-button {
+  appearance: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  min-width: 120px;
+  padding: 10px 14px;
+  background-color: #283a53 !important;
+  border: 1px solid #283a53 !important;
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff !important;
+  font-size: 13px;
+  font-weight: 750;
+  line-height: 1.2;
+  opacity: 1;
+  visibility: visible;
+}
+
+.rs-op-page .rs-op-order-tail button.rs-op-edit-button:hover:not(:disabled) {
+  background-color: #192b43 !important;
+}
+
+.rs-op-page .rs-op-order-tail button.rs-op-edit-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

@@ -1,0 +1,196 @@
+{
+  "createdAt": "2026-10-23T18:48:29.700Z",
+  "project": "assignment-12-33d2b",
+  "rows": [
+    {
+      "id": "portfolio-demo-01",
+      "category": "bmw",
+      "model": "BMW 320i Sport Line",
+      "filename": "portfolio-demo-01.jpg",
+      "relativeUrl": "/resell-inventory/portfolio-demo-01.jpg",
+      "originalRemoteUrl": "https://i.ibb.co/twM2WsyH/bmw.jpg",
+      "source": "brand-url",
+      "bytes": 490487
+    },
+    {
+      "id": "portfolio-demo-02",
+      "category": "renault",
+      "model": "Renault Mégane IV",
+      "filename": "portfolio-demo-02.jpg",
+      "relativeUrl": "/resell-inventory/portfolio-demo-02.jpg",
+      "originalRemoteUrl": "https://i.ibb.co/4Z9tYD1P/renault.jpg",
+      "source": "brand-url",
+      "bytes": 1887628
+    },
+    {
+      "id": "portfolio-demo-03",
+      "category": "bmw",
+      "model": "BMW 1 Series",
+      "filename": "portfolio-demo-03.jpg",
+      "relativeUrl": "/resell-inventory/portfolio-demo-03.jpg",
+      "originalRemoteUrl": "https://i.ibb.co/1GBqmbB0/bmw.jpg",
+      "source": "brand-url",
+      "bytes": 1730696
+    },
+    {
+      "id": "portfolio-demo-04",
+      "category": "audi",
+      "model": "Audi A3 Sportback",
+      "filename": "portfolio-demo-04.jpg",
+      "relativeUrl": "/resell-inventory/portfolio-demo-04.jpg",
+      "originalRemoteUrl": "https://i.ibb.co/nKVCM6f/audi.jpg",
+      "source": "brand-url",
+      "bytes": 1031069
+    },
+    {
+      "id": "portfolio-demo-05",
+      "category": "skoda",
+      "model": "Skoda Octavia Combi",
+      "filename": "portfolio-demo-05.jpg",
+      "relativeUrl": "/resell-inventory/portfolio-demo-05.jpg",
+      "originalRemoteUrl": "https://i.ibb.co/XfzZhhQG/skoda.jpg",
+      "source": "brand-url",
+      "bytes": 1334368
+    },
+    {
+      "id": "portfolio-demo-06",
+      "category": "audi",
+      "model": "Audi A3",
+      "filename": "portfolio-demo-06.jpg",
+      "relativeUrl": "/resell-inventory/portfolio-demo-06.jpg",
+      "originalRemoteUrl": "https://i.ibb.co/2Y0TZSk4/audi.jpg",
+      "source": "brand-url",
+      "bytes": 6252140
+    },
+    {
+      "id": "portfolio-demo-07",
+      "category": "renault",
+      "model": "Renault Clio V",
+      "filename": "portfolio-demo-07.jpg",
+      "relativeUrl": "/resell-inventory/portfolio-demo-07.jpg",
+      "originalRemoteUrl": "https://i.ibb.co/kVjLpcSJ/renault.jpg",
+      "source": "brand-url",
+      "bytes": 1523916
+    },
+    {
+      "id": "portfolio-demo-08",
+      "category": "skoda",
+      "model": "Skoda Superb Combi",
+      "filename": "portfolio-demo-08.jpg",
+      "relativeUrl": "/resell-inventory/portfolio-demo-08.jpg",
+      "originalRemoteUrl": "https://i.ibb.co/LXjNpt2v/skoda.jpg",
+      "source": "brand-url",
+      "bytes": 2758108
+    },
+    {
+      "id": "portfolio-demo-09",
+      "category": "renault",
+      "model": "Renault Clio V TCe 90",
+      "filename": "portfolio-demo-09.jpg",
+      "relativeUrl": "/resell-inventory/portfolio-demo-09.jpg",
+      "originalRemoteUrl": "https://i.ibb.co/JwScVDjw/renault.jpg",
+      "source": "brand-url",
+      "bytes": 2816879
+    },
+    {
+      "id": "portfolio-demo-10",
+      "category": "audi",
+      "model": "Audi Q3",
+      "filename": "portfolio-demo-10.jpg",
+      "relativeUrl": "/resell-inventory/portfolio-demo-10.jpg",
+      "originalRemoteUrl": "https://i.ibb.co/4ZjwQp4Y/audi.jpg",
+      "source": "brand-url",
+      "bytes": 2256995
+    },
+    {
+      "id": "portfolio-demo-11",
+      "category": "skoda",
+      "model": "Skoda Octavia",
+      "filename": "portfolio-demo-11.jpg",
+      "relativeUrl": "/resell-inventory/portfolio-demo-11.jpg",
+      "originalRemoteUrl": "https://i.ibb.co/d4M8MkQF/skoda.jpg",
+      "source": "brand-url",
+      "bytes": 5923457
+    },
+    {
+      "id": "portfolio-demo-12",
+      "category": "bmw",
+      "model": "BMW 1 Series",
+      "filename": "portfolio-demo-12.jpg",
+      "relativeUrl": "/resell-inventory/portfolio-demo-12.jpg",
+      "originalRemoteUrl": "https://i.ibb.co/F4bdvGYf/bmw.jpg",
+      "source": "brand-url",
+      "bytes": 3538014
+    },
+    {
+      "id": "portfolio-demo-13",
+      "category": "renault",
+      "model": "Renault Talisman",
+      "filename": "portfolio-demo-13.jpg",
+      "relativeUrl": "/resell-inventory/portfolio-demo-13.jpg",
+      "originalRemoteUrl": "https://i.ibb.co/cSqJKVM6/renault.jpg",
+      "source": "brand-url",
+      "bytes": 6482857
+    },
+    {
+      "id": "portfolio-demo-14",
+      "category": "bmw",
+      "model": "BMW X1",
+      "filename": "portfolio-demo-14.jpg",
+      "relativeUrl": "/resell-inventory/portfolio-demo-14.jpg",
+      "originalRemoteUrl": "https://i.ibb.co/nMD1z3CX/bmw.jpg",
+      "source": "brand-url",
+      "bytes": 2869738
+    },
+    {
+      "id": "portfolio-demo-15",
+      "category": "audi",
+      "model": "Audi A1 Sportback",
+      "filename": "portfolio-demo-15.jpg",
+      "relativeUrl": "/resell-inventory/portfolio-demo-15.jpg",
+      "originalRemoteUrl": "https://i.ibb.co/pvxjbdts/audi.jpg",
+      "source": "brand-url",
+      "bytes": 1761961
+    },
+    {
+      "id": "portfolio-demo-16",
+      "category": "renault",
+      "model": "Renault Clio IV",
+      "filename": "portfolio-demo-16.jpg",
+      "relativeUrl": "/resell-inventory/portfolio-demo-16.jpg",
+      "originalRemoteUrl": "https://i.ibb.co/4ZPTDXL4/renault.jpg",
+      "source": "brand-url",
+      "bytes": 3528991
+    },
+    {
+      "id": "portfolio-demo-17",
+      "category": "audi",
+      "model": "Audi A3 Sportback",
+      "filename": "portfolio-demo-17.jpg",
+      "relativeUrl": "/resell-inventory/portfolio-demo-17.jpg",
+      "originalRemoteUrl": "https://i.ibb.co/yn9vfpqF/audi.jpg",
+      "source": "brand-url",
+      "bytes": 1783088
+    },
+    {
+      "id": "portfolio-demo-18",
+      "category": "renault",
+      "model": "Renault Talisman",
+      "filename": "portfolio-demo-18.jpg",
+      "relativeUrl": "/resell-inventory/portfolio-demo-18.jpg",
+      "originalRemoteUrl": "https://i.ibb.co/TxZR11zS/renault.jpg",
+      "source": "brand-url",
+      "bytes": 3182846
+    },
+    {
+      "id": "portfolio-demo-19",
+      "category": "skoda",
+      "model": "Skoda Superb iV",
+      "filename": "portfolio-demo-19.jpg",
+      "relativeUrl": "/resell-inventory/portfolio-demo-19.jpg",
+      "originalRemoteUrl": "https://i.ibb.co/5XqzVkfs/skoda.jpg",
+      "source": "brand-url",
+      "bytes": 2181429
+    }
+  ]
+}

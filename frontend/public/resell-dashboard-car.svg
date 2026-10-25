@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 510" role="img" aria-label="Stylised modern sports car">
+ <defs>
+  <linearGradient id="body" x1="0" y1=".15" x2=".9" y2=".9"><stop stop-color="#f9fbff"/><stop offset=".42" stop-color="#e0e9f1"/><stop offset="1" stop-color="#a4b7ca"/></linearGradient>
+  <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1b3853"/><stop offset="1" stop-color="#050e1e"/></linearGradient>
+  <linearGradient id="tire" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#121b27"/><stop offset="1" stop-color="#000307"/></linearGradient>
+  <filter id="shadow"><feGaussianBlur stdDeviation="17"/></filter>
+ </defs>
+ <ellipse cx="480" cy="403" rx="362" ry="35" fill="#000" opacity=".35" filter="url(#shadow)"/>
+ <path d="M112 286c38-16 81-24 147-29l97-95c24-26 60-40 104-40h173c49 0 71 12 102 44l72 81c40 6 73 18 94 39 10 11 14 28 9 48l-9 32-74 18H206l-75-10-22-41c-9-15-9-32 3-47Z" fill="url(#body)" stroke="#d3e0ec" stroke-width="4"/>
+ <path d="m303 252 70-75c23-22 51-31 89-31h169c39 0 56 10 78 31l60 72-466 3Z" fill="url(#glass)" stroke="#b5c5d5" stroke-width="7"/>
+ <path d="M544 145 518 254" stroke="#708aa1" stroke-width="8"/>
+ <path d="M282 265c122 11 360 10 514-9" fill="none" stroke="#fff" stroke-opacity=".83" stroke-width="5"/>
+ <path d="M112 291c26-18 71-26 116-26l-23 42-92 5Z" fill="#263a51"/>
+ <path d="m863 277-61-12 33 49 68-5Z" fill="#283e51"/>
+ <path d="m123 340 72-3 18 28h572l16-28 107-8-14 36-58 18H207l-79-11Z" fill="#c5d1db"/>
+ <path d="M205 381c12-66 91-71 112 0m385 0c12-66 91-71 112 0" fill="#526375" opacity=".75"/>
+ <g><circle cx="261" cy="379" r="63" fill="url(#tire)"/><circle cx="261" cy="379" r="39" fill="#bac8d5"/><circle cx="261" cy="379" r="28" fill="#6c7d8f"/><circle cx="261" cy="379" r="14" fill="#dce8ef"/></g>
+ <g><circle cx="756" cy="379" r="63" fill="url(#tire)"/><circle cx="756" cy="379" r="39" fill="#bac8d5"/><circle cx="756" cy="379" r="28" fill="#6c7d8f"/><circle cx="756" cy="379" r="14" fill="#dce8ef"/></g>
+ <path d="m129 296 63-11-11 16-62 10Z" fill="#daf9b1"/>
+ <path d="m841 292 49 7-2 10-46-4Z" fill="#f48771"/>
+ <path d="M421 262h37m166 0h33" stroke="#9aabbc" stroke-width="6" stroke-linecap="round"/>
+ <path d="M335 347c113 12 291 11 409-2" stroke="#e8f2f9" stroke-width="5" fill="none"/>
+</svg>

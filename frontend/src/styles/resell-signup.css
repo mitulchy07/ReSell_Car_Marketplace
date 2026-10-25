@@ -1,0 +1,294 @@
+/* ReSell Market signup add-on — requires resell-modern.css from the original theme. */
+.rs-signup-layout {
+  grid-template-columns: minmax(0, 1fr) minmax(0, 0.88fr);
+  min-height: 830px;
+}
+.rs-signup-card {
+  padding: clamp(30px, 4.7vw, 62px);
+}
+.rs-signup-card .rs-auth-back {
+  margin-bottom: 29px;
+}
+.rs-signup-card .rs-auth-subtitle {
+  margin-bottom: 25px;
+}
+.rs-signup-form {
+  gap: 0;
+}
+.rs-signup-field {
+  margin-bottom: 13px;
+}
+.rs-signup-field > label {
+  display: block;
+  margin: 0 0 8px;
+}
+.rs-signup-field .rs-input {
+  margin-bottom: 0;
+}
+.rs-signup-field .rs-input-error {
+  display: block;
+  margin: 7px 0 0;
+}
+.rs-signup-password-wrap {
+  position: relative;
+}
+.rs-signup-password-wrap .rs-input {
+  padding-right: 72px;
+}
+.rs-signup-reveal {
+  position: absolute;
+  right: 9px;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 9px 10px;
+  background: transparent;
+  border: 0;
+  border-radius: 7px;
+  color: #566b82;
+  font-size: 12px;
+  font-weight: 780;
+  cursor: pointer;
+}
+.rs-signup-reveal:hover {
+  background: #eaf0f3;
+  color: var(--rs-ink);
+}
+.rs-signup-password-hint {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 18px;
+  row-gap: 6px;
+  margin: 8px 0 0;
+  color: #98a3ad;
+  font-size: 11px;
+}
+.rs-signup-password-hint .is-valid {
+  color: #608a25;
+}
+.rs-signup-roles {
+  min-width: 0;
+  padding: 0;
+  border: 0;
+  margin: 0 0 17px;
+}
+.rs-signup-roles legend {
+  padding: 0;
+  margin-bottom: 9px;
+  color: var(--rs-ink);
+  font-size: 12px;
+  font-weight: 740;
+}
+.rs-signup-role-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.rs-signup-role {
+  cursor: pointer;
+  min-width: 0;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  position: relative;
+  padding: 13px 11px;
+  border: 1px solid var(--rs-border);
+  border-radius: 12px;
+  background: #fbfcfd;
+  transition:
+    0.18s border-color,
+    0.18s background,
+    0.18s box-shadow;
+}
+.rs-signup-role:hover {
+  border-color: #b4ce96;
+}
+.rs-signup-role.is-selected {
+  border-color: #84ac4e;
+  background: #f5fbea;
+  box-shadow: inset 0 0 0 1px #84ac4e;
+}
+.rs-signup-role:has(input:focus-visible) {
+  outline: 3px solid #92c332;
+  outline-offset: 2px;
+}
+.rs-signup-role input {
+  position: absolute;
+  opacity: 0;
+  width: 1px;
+  height: 1px;
+}
+.rs-role-icon {
+  flex-shrink: 0;
+  display: grid;
+  place-items: center;
+  width: 37px;
+  height: 37px;
+  background: #ecf1f5;
+  border-radius: 10px;
+  color: #65778a;
+}
+.rs-role-icon svg {
+  width: 22px;
+  height: 22px;
+}
+.rs-signup-role.is-selected .rs-role-icon {
+  color: #386d2a;
+  background: #e2f3c8;
+}
+.rs-signup-role strong,
+.rs-signup-role small {
+  display: block;
+  white-space: nowrap;
+}
+.rs-signup-role strong {
+  color: var(--rs-ink);
+  font-size: 12px;
+  font-weight: 800;
+}
+.rs-signup-role small {
+  margin-top: 2px;
+  color: #8492a4;
+  font-size: 10px;
+}
+.rs-role-check {
+  display: none;
+  position: absolute;
+  right: 8px;
+  top: 7px;
+  border-radius: 100px;
+  background: #6b9a36;
+  color: white;
+  font-size: 9px;
+  height: 16px;
+  width: 16px;
+  align-items: center;
+  justify-content: center;
+}
+.rs-signup-role.is-selected .rs-role-check {
+  display: flex;
+}
+.rs-signup-role-help {
+  font-size: 10px;
+  line-height: 1.5;
+  color: #8592a1;
+  margin: 8px 0 0;
+}
+.rs-signup-submit {
+  margin-top: 13px;
+}
+.rs-signup-security-note {
+  margin: 12px 0 0;
+  color: #8b98a7;
+  text-align: center;
+  font-size: 11px;
+}
+.rs-signup-card .rs-auth-bottom {
+  margin-top: 22px;
+}
+.rs-signup-aside .rs-auth-aside-content {
+  margin-top: 112px;
+}
+.rs-signup-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #c5dab6;
+  background: #ffffff10;
+  border: 1px solid #ffffff1b;
+  border-radius: 50px;
+  padding: 10px 13px;
+  font-size: 10px;
+  font-weight: 750;
+  letter-spacing: 0.12em;
+  margin-bottom: 21px;
+}
+.rs-signup-pill span {
+  width: 7px;
+  height: 7px;
+  background: var(--rs-lime);
+  border-radius: 50%;
+}
+.rs-signup-aside .rs-auth-aside-content h2 {
+  font-size: clamp(34px, 4.1vw, 57px);
+}
+.rs-signup-benefits {
+  margin-top: 42px;
+  display: grid;
+  gap: 16px;
+  color: #c5d2e4;
+  font-size: 13px;
+}
+.rs-signup-benefits div {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.rs-signup-benefits span {
+  color: var(--rs-lime);
+  font-size: 11px;
+  font-weight: 850;
+}
+.rs-signup-aside > img {
+  margin-top: 55px;
+}
+@media (max-width: 840px) {
+  .rs-signup-layout {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 0.78fr);
+  }
+  .rs-signup-card {
+    padding: 32px 25px;
+  }
+  .rs-signup-role {
+    gap: 8px;
+    padding: 11px 8px;
+  }
+  .rs-role-icon {
+    width: 31px;
+    height: 31px;
+  }
+  .rs-signup-aside .rs-auth-aside-content {
+    margin-top: 95px;
+  }
+}
+@media (max-width: 620px) {
+  .rs-signup-layout {
+    grid-template-columns: 1fr;
+    min-height: 0;
+  }
+  .rs-signup-card {
+    padding: 32px 23px 39px;
+  }
+  .rs-signup-role-grid {
+    gap: 9px;
+  }
+  .rs-signup-role {
+    padding: 11px 9px;
+  }
+  .rs-signup-security-note {
+    line-height: 1.6;
+  }
+  .rs-signup-aside {
+    display: none;
+  }
+}
+@media (max-width: 370px) {
+  .rs-role-icon {
+    width: 28px;
+    height: 28px;
+  }
+  .rs-signup-role {
+    gap: 6px;
+    padding: 10px 6px;
+  }
+  .rs-signup-role strong {
+    font-size: 11px;
+  }
+  .rs-signup-role small {
+    font-size: 9px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .rs-signup-role {
+    transition: none;
+  }
+}

@@ -1,0 +1,15 @@
+node_modules/
+.env
+.env.*
+!.env.example
+.firebase/
+.vercel/
+resell-backup/
+*.log
+.DS_Store
+*firebase-adminsdk*.json
+*service-account*.json
+*credentials*.json
+serviceAccountKey.json
+.vercel
+.env*

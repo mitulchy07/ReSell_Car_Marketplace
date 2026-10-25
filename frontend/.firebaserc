@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "assignment-12-33d2b"
+  },
+  "targets": {
+    "assignment-12-33d2b": {
+      "hosting": {
+        "resell": [
+          "resellmarket-fr"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

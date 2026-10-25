@@ -1,0 +1,276 @@
+/* ReSell V4: deliberately SCOPED button visibility. Imported by the affected pages, not added to index.js.
+   Avoids DaisyUI/global theme styles (including WebKit text-fill) that made CTA labels disappear. */
+
+/* Explore Cars filter + zero-results state */
+body .rs-v2-browse .rs-v2-filters > button.rs-v2-reset.rs-ui4-clear {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 8px !important;
+  min-height: 46px !important;
+  width: 100% !important;
+  padding: 11px 16px !important;
+  margin: 0 !important;
+  border-radius: 11px !important;
+  border: 1px solid #b7d0ad !important;
+  background: #eaf5e1 !important;
+  color: #24452b !important;
+  -webkit-text-fill-color: #24452b !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  transform: none !important;
+  font-family: inherit !important;
+  font-size: 14px !important;
+  font-weight: 800 !important;
+  line-height: 1.35 !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
+  white-space: normal !important;
+  box-shadow: none !important;
+}
+body .rs-v2-browse .rs-v2-filters > button.rs-ui4-clear:hover {
+  background: #d9eccc !important;
+  border-color: #8cb176 !important;
+}
+body .rs-v2-browse .rs-mkt-empty > button.rs-mkt-book.rs-ui4-empty-action {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 8px !important;
+  min-height: 48px !important;
+  min-width: 150px !important;
+  max-width: 100% !important;
+  padding: 12px 22px !important;
+  border: 1px solid #172e46 !important;
+  border-radius: 11px !important;
+  background: #172e46 !important;
+  color: #fff !important;
+  -webkit-text-fill-color: #fff !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  transform: none !important;
+  font-size: 14px !important;
+  font-weight: 800 !important;
+  line-height: 1.35 !important;
+  cursor: pointer !important;
+  text-decoration: none !important;
+}
+body .rs-v2-browse .rs-mkt-empty > button.rs-ui4-empty-action:hover {
+  background: #284c6c !important;
+  border-color: #284c6c !important;
+}
+body .rs-v2-browse button.rs-ui4-clear > span,
+body .rs-v2-browse button.rs-ui4-empty-action > span {
+  display: inline !important;
+  position: static !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  color: inherit !important;
+  -webkit-text-fill-color: inherit !important;
+  background: transparent !important;
+  font-size: inherit !important;
+  font-weight: inherit !important;
+  line-height: inherit !important;
+}
+
+/* Admin account actions: labels stay visible, targets >= 44px, meaningful color by action. */
+body .rs-ua-page .rs-ua-table td[data-label='Actions'] {
+  min-width: 260px !important;
+}
+body .rs-ua-page .rs-ua-actions.rs-ui4-actions {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 8px !important;
+  width: 100% !important;
+  max-width: none !important;
+  align-items: stretch !important;
+}
+body .rs-ua-page .rs-ua-actions.rs-ui4-actions > button {
+  appearance: none !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  min-height: 44px !important;
+  min-width: 92px !important;
+  padding: 10px 13px !important;
+  margin: 0 !important;
+  border-radius: 10px !important;
+  border: 1px solid #7593ad !important;
+  background: #304d68 !important;
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff !important;
+  font-family: inherit !important;
+  font-size: 13px !important;
+  font-weight: 750 !important;
+  line-height: 1.35 !important;
+  text-align: center !important;
+  text-transform: none !important;
+  letter-spacing: 0 !important;
+  text-decoration: none !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  transform: none !important;
+  cursor: pointer !important;
+  white-space: normal !important;
+}
+body .rs-ua-page .rs-ua-actions.rs-ui4-actions > button.rs-ui4-grant,
+body .rs-ua-page .rs-ua-actions.rs-ui4-actions > button.rs-ui4-activate {
+  background: #c4eb99 !important;
+  border-color: #c4eb99 !important;
+  color: #203929 !important;
+  -webkit-text-fill-color: #203929 !important;
+}
+body .rs-ua-page .rs-ua-actions.rs-ui4-actions > button.rs-ui4-revoke,
+body .rs-ua-page .rs-ua-actions.rs-ui4-actions > button.rs-ui4-suspend {
+  background: #ffefc9 !important;
+  border-color: #e2c687 !important;
+  color: #533b17 !important;
+  -webkit-text-fill-color: #533b17 !important;
+}
+body .rs-ua-page .rs-ua-actions.rs-ui4-actions > button.rs-ua-delete {
+  background: #a53244 !important;
+  border-color: #c45f6c !important;
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff !important;
+}
+body .rs-ua-page .rs-ua-actions.rs-ui4-actions > button:hover:not(:disabled) {
+  filter: brightness(1.12) !important;
+}
+body .rs-ua-page .rs-ua-actions.rs-ui4-actions > button:disabled {
+  opacity: 0.55 !important;
+  cursor: not-allowed !important;
+}
+body .rs-ua-page .rs-ua-table th {
+  font-size: 12px !important;
+}
+body .rs-ua-page .rs-ua-table td {
+  font-size: 13.5px !important;
+}
+body .rs-ua-page .rs-ua-table td small {
+  font-size: 12px !important;
+}
+
+/* Admin pagination and common moderation actions. */
+body .rs-ua-page .rs-ua-pagination > button {
+  min-height: 44px !important;
+  padding: 10px 16px !important;
+  background: #334e68 !important;
+  color: #f9fcff !important;
+  -webkit-text-fill-color: #f9fcff !important;
+  border-color: #708ba5 !important;
+  font-size: 13px !important;
+  font-weight: 750 !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+body .rs-ua-page .rs-ua-pagination > button:disabled {
+  opacity: 0.53 !important;
+  cursor: not-allowed !important;
+}
+body .rs-v2-admin .rs-v2-table-actions > button,
+body .rs-v2-admin .rs-v2-admin-tools > button,
+body .rs-v2-admin button.rs-v2-admin-refresh {
+  min-height: 44px !important;
+  padding: 10px 13px !important;
+  font-size: 13px !important;
+  font-weight: 750 !important;
+  line-height: 1.3 !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  color: #243e56 !important;
+  -webkit-text-fill-color: #243e56 !important;
+  background: #e5edf4 !important;
+  border: 1px solid #bed0df !important;
+}
+body .rs-v2-admin .rs-v2-table-actions > button.danger {
+  background: #ffe6e6 !important;
+  color: #90303d !important;
+  -webkit-text-fill-color: #90303d !important;
+  border-color: #ebbdc3 !important;
+}
+body .rs-v2-admin .rs-v2-table-actions > button.positive {
+  background: #e7f3d6 !important;
+  color: #2d6037 !important;
+  -webkit-text-fill-color: #2d6037 !important;
+  border-color: #b9d2a9 !important;
+}
+body .rs-v2-admin .rs-v2-table-actions > button:disabled {
+  opacity: 0.55 !important;
+}
+
+/* Shared keyboard accessibility */
+body .rs-v2-browse button.rs-ui4-clear:focus-visible,
+body .rs-v2-browse button.rs-ui4-empty-action:focus-visible,
+body .rs-ua-page .rs-ui4-actions > button:focus-visible,
+body .rs-ua-page .rs-ua-pagination > button:focus-visible,
+body .rs-v2-admin .rs-v2-table-actions > button:focus-visible {
+  outline: 3px solid #76b044 !important;
+  outline-offset: 3px !important;
+}
+@media (max-width: 700px) {
+  body .rs-ua-page .rs-ua-table td[data-label='Actions'] {
+    min-width: 0 !important;
+  }
+  body .rs-ua-page .rs-ua-actions.rs-ui4-actions > button {
+    flex: 1 1 120px !important;
+  }
+  body .rs-ua-page .rs-ua-pagination {
+    flex-wrap: wrap !important;
+  }
+}
+@media (max-width: 480px) {
+  body .rs-v2-browse .rs-mkt-empty > button.rs-ui4-empty-action {
+    width: 100% !important;
+  }
+  body .rs-ua-page .rs-ua-actions.rs-ui4-actions {
+    flex-direction: column !important;
+  }
+  body .rs-ua-page .rs-ua-actions.rs-ui4-actions > button {
+    width: 100% !important;
+  }
+}
+
+/* RESELL FEATURE TOGGLE CONSISTENCY V6 */
+/* Feature and Unfeature are the same toggle control, with identical appearance.
+   The listing status itself is already visible in the Visibility column. */
+body .rs-v2-admin .rs-v2-table-actions > button.rs-v2-feature-toggle,
+body .rs-v2-admin .rs-v2-table-actions > button.rs-v2-feature-toggle[aria-pressed='true'],
+body .rs-v2-admin .rs-v2-table-actions > button.rs-v2-feature-toggle[aria-pressed='false'] {
+  appearance: none !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  min-height: 44px !important;
+  min-width: 128px !important;
+  padding: 10px 15px !important;
+  border: 1px solid #b7cbdd !important;
+  border-radius: 10px !important;
+  background: #e4edf5 !important;
+  color: #213f59 !important;
+  -webkit-text-fill-color: #213f59 !important;
+  font-size: 13px !important;
+  font-weight: 800 !important;
+  line-height: 1.3 !important;
+  letter-spacing: normal !important;
+  white-space: nowrap !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  box-shadow: none !important;
+  cursor: pointer !important;
+}
+body .rs-v2-admin .rs-v2-table-actions > button.rs-v2-feature-toggle:not(:disabled):hover {
+  background: #d3e3f0 !important;
+  border-color: #779dbb !important;
+}
+body .rs-v2-admin .rs-v2-table-actions > button.rs-v2-feature-toggle:disabled {
+  background: #f0f4f6 !important;
+  border-color: #dce5eb !important;
+  color: #8c9baa !important;
+  -webkit-text-fill-color: #8c9baa !important;
+  opacity: 1 !important;
+  cursor: not-allowed !important;
+}
+body .rs-v2-admin .rs-v2-table-actions > button.rs-v2-feature-toggle:focus-visible {
+  outline: 3px solid #8dbb51 !important;
+  outline-offset: 3px !important;
+}

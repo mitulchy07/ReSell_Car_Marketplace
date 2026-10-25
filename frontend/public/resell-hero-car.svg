@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="565" viewBox="0 0 1120 565" role="img" aria-labelledby="title desc">
+<title id="title">Contemporary sports coupe</title>
+<desc id="desc">Stylized silver sports coupe illustrated on a transparent background</desc>
+<defs>
+  <linearGradient id="body" x1=".3" y1="0" x2=".6" y2="1"><stop offset="0" stop-color="#fbffff"/><stop offset=".25" stop-color="#b6ced2"/><stop offset=".48" stop-color="#627f8a"/><stop offset=".72" stop-color="#d2e3de"/><stop offset="1" stop-color="#354c5c"/></linearGradient>
+  <linearGradient id="roof" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e2f3e7"/><stop offset=".48" stop-color="#476878"/><stop offset="1" stop-color="#101e2b"/></linearGradient>
+  <linearGradient id="side" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset=".5" stop-color="#97acac"/><stop offset="1" stop-color="#283b4b"/></linearGradient>
+  <linearGradient id="rim" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#eef8f1"/><stop offset=".5" stop-color="#60788b"/><stop offset="1" stop-color="#d9e3e0"/></linearGradient>
+  <radialGradient id="glow"><stop offset="0" stop-color="#b6e880" stop-opacity=".40"/><stop offset="1" stop-color="#b6e880" stop-opacity="0"/></radialGradient>
+  <filter id="shadow" x="-50%" y="-120%" width="200%" height="350%"><feGaussianBlur stdDeviation="24"/></filter>
+</defs>
+<ellipse cx="558" cy="420" rx="500" ry="115" fill="url(#glow)"/>
+<ellipse cx="560" cy="460" rx="453" ry="29" fill="#030810" opacity=".7" filter="url(#shadow)"/>
+<ellipse cx="588" cy="454" rx="436" ry="19" fill="#030811" opacity=".55"/>
+<!-- Rear spoiler -->
+<path d="M171 286 112 274 112 264 215 270 228 294Z" fill="#506979" stroke="#d6e5dc" stroke-width="5"/>
+<!-- Roof silhouette -->
+<path d="M267 320 347 236Q368 209 420 203l233-5q33 1 64 25l137 110-62 40-489-6Z" fill="url(#roof)" stroke="#f6fff6" stroke-opacity=".45" stroke-width="4"/>
+<!-- Body silhouette -->
+<path d="M113 341Q141 320 214 309l85-13q20-2 43-29l40-41q27-28 76-30l216-6q32-1 59 19l143 101 110 28q56 17 64 49l11 42q2 22-27 24h-61a83 83 0 0 0-162-1H367a83 83 0 0 0-164 2h-53q-34-2-40-26l-8-43q-8-24 11-44Z" fill="url(#body)" stroke="#e9f6f0" stroke-width="7" stroke-linejoin="round"/>
+<!-- Hood highlight -->
+<path d="M849 320q52 7 117 29l44 12q25 10 36 30-46-16-82-16l-128-21Z" fill="#ebfff3" opacity=".68"/>
+<!-- Glazing -->
+<path d="m362 287 47-51q15-15 47-17l111-3-16 110-184-5Z" fill="#122735" stroke="#d4f1e4" stroke-width="5"/>
+<path d="m584 215 67-2q28 0 43 11l117 94-233 8Z" fill="#193443" stroke="#b2c8ca" stroke-width="5"/>
+<path d="m596 217 33-1-37 106h-21Z" fill="#95b5bd" opacity=".6"/>
+<path d="m423 242 42-7-45 70-24-5Z" fill="#effff9" opacity=".18"/>
+<!-- Upper flank -->
+<path d="M172 353q176-37 377-29l278 13q96 12 190 48" fill="none" stroke="#f4ffed" stroke-width="10" opacity=".49" stroke-linecap="round"/>
+<path d="M186 389q310 7 624 12l208-5" fill="none" stroke="#263d4c" stroke-width="5" opacity=".5"/>
+<!-- Door seams -->
+<path d="m556 335-10 79q-1 13-15 14" fill="none" stroke="#243b4a" stroke-width="4" opacity=".65"/>
+<path d="m827 335-11 70q-1 16-10 21" fill="none" stroke="#243b4a" stroke-width="4" opacity=".65"/>
+<path d="M571 357h36" stroke="#f8fff1" stroke-width="9" stroke-linecap="round"/>
+<!-- Side mirror -->
+<path d="m775 320 47-10q14-1 17 11l-4 18-53-4Z" fill="#c1d7d2" stroke="#263c4b" stroke-width="5"/>
+<!-- Lower aerodynamic skirt -->
+<path d="M185 442q345 22 691 3l163-12-6 17q-414 44-838 10Z" fill="#14293a" opacity=".83"/>
+<!-- Wheel wells -->
+<path d="M203 453a83 83 0 0 1 166-1" stroke="#1b2936" stroke-width="16" fill="none"/>
+<path d="M804 450a83 83 0 0 1 166 0" stroke="#1b2936" stroke-width="16" fill="none"/>
+<!-- Wheel 1 -->
+<g transform="translate(286 448)"><circle r="82" fill="#101822"/><circle r="68" fill="#283849"/><circle r="58" fill="url(#rim)"/><circle r="48" fill="#142534"/>
+<g fill="#a3c4c3"><path d="M-8-48H8L12-15 4-9Z"/><path d="M-8-48H8L12-15 4-9Z" transform="rotate(72)"/><path d="M-8-48H8L12-15 4-9Z" transform="rotate(144)"/><path d="M-8-48H8L12-15 4-9Z" transform="rotate(216)"/><path d="M-8-48H8L12-15 4-9Z" transform="rotate(288)"/></g><circle r="16" fill="#dee8dd"/><circle r="8" fill="#344d5e"/></g>
+<!-- Wheel 2 -->
+<g transform="translate(888 448)"><circle r="82" fill="#101822"/><circle r="68" fill="#283849"/><circle r="58" fill="url(#rim)"/><circle r="48" fill="#142534"/>
+<g fill="#a3c4c3"><path d="M-8-48H8L12-15 4-9Z"/><path d="M-8-48H8L12-15 4-9Z" transform="rotate(72)"/><path d="M-8-48H8L12-15 4-9Z" transform="rotate(144)"/><path d="M-8-48H8L12-15 4-9Z" transform="rotate(216)"/><path d="M-8-48H8L12-15 4-9Z" transform="rotate(288)"/></g><circle r="16" fill="#dee8dd"/><circle r="8" fill="#344d5e"/></g>
+<!-- Lights and trim -->
+<path d="m944 353 62 12 32 17-11 11-78-12Z" fill="#e4fcdd" stroke="#b6ef8b" stroke-width="4"/>
+<path d="m114 363 24-12 27-5-7 37-43-3Z" fill="#fd6264" stroke="#efb4ac" stroke-width="3"/>
+<path d="M999 411h45" stroke="#1c3540" stroke-width="9" stroke-linecap="round"/>
+<path d="M156 417h27" stroke="#161f2b" stroke-width="9" stroke-linecap="round"/>
+</svg>

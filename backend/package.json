@@ -1,0 +1,31 @@
+{
+  "name": "resell-market-firestore-preview",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Express API for the ReSell vehicle marketplace using Firebase Authentication and Cloud Firestore",
+  "main": "index.js",
+  "engines": {
+    "node": "24.x"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "test": "node --test tests/*.test.js",
+    "check:syntax": "find . -path ./node_modules -prune -o -name \"*.js\" -exec node --check {} \\;",
+    "routes": "node scripts/route-table.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "firebase-admin": "14.5.0"
+  },
+  "devDependencies": {
+    "firebase-tools": "^15.34.1"
+  },
+  "overrides": {
+    "jwks-rsa": {
+      "jose": "5.10.0"
+    }
+  }
+}

@@ -1,1 +1,11 @@
-.vercel
+**/node_modules/
+**/build/
+**/coverage/
+**/.env
+**/.env.*
+!**/.env.example
+**/.vercel/
+**/.firebase/
+**/*.log
+**/*.backup
+.DS_Store
